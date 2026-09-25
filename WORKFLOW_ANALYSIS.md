@@ -2,7 +2,7 @@ The 6 questions + answers
 
 1. What triggers this workflow to run?
 
-The workflow is triggered by activity specified in the on: section of deploy.yml. It runs when changes are pushed to the repository and when a pull request is made against the repository. The workflow uses these events to automatically validate changes and, when appropriate, deploy the website.
+The workflow is triggered by activity specified in the on: section of deploy.yml. It runs when changes are pushed to the repository and when a pull request is made against the repository. The workflow uses these events to automatically validate changes and, when appropriate, deploy the website. This allows the workflow to automatically respond to changes without requiring the deployment process to be started manually.
 
 2. What are the four main steps this workflow performs?
 
